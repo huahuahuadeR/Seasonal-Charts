@@ -1,2 +1,2 @@
 # Seasonal-Charts
-A tool for drawing seasonal charts
+A tool (Using PyQt5) for drawing seasonal charts
