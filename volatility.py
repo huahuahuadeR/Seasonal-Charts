@@ -1,7 +1,6 @@
 # Author: R
 # Date: 2023-12-28
 
-import pandas as pd
 import numpy as np
 
 # 自己定义一个求标准差的函数

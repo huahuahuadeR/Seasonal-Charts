@@ -83,6 +83,6 @@ def all_base3(end, table, n0, n, want_list, year_list):
         # 取后三列的买一行
         last_row = final_table.iloc[:, -3:].mean(axis=1).round(2)
         # 添加到新的一列命名为3y
-        final_table["AVE"] = last_row
+        final_table["AVG"] = last_row
 
     return final_table

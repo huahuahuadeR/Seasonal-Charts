@@ -6,32 +6,13 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 
-# 基础变量 初始设置
-# today = "2023-12-15"
-# end = datetime.strptime(today, '%Y-%m-%d')
-# filepath = r"C:\Users\Xujingran\Desktop\季节性图表\三大油价差数据.xlsx"
-# year_list = [2016,2017,2018,2019,2020,2021,2022]
-#doc_path = r"C:\Users\Xujingran\Desktop\test.docx"
-
-# 调取数据 —— 基差部分
-# use_sheet_name = "基差"
-# df2 = pd.read_excel(filepath, sheet_name=use_sheet_name)
-# # 价差表格处理
-# df2.index = df2.iloc[:, 0]
-# df2.index.name = None
-# df2 = df2.iloc[:, 1:]
-#
-
-# df2
-# print(df2)
-# 改版5 添加未来时间的长度
 def all_base2(end, table, n0, n, want_list, year_list):
     """
     input:
     ======
     n0 = 未来时间的长度
     end = 最新数据的日期
-    table =
+    table = 接收数据的原表格
     n = 向后需要的日期
     want_list = 基差需要的是一列数
     year_list = 指定要几年的数据 # 不要包含当年的年份
@@ -42,12 +23,10 @@ def all_base2(end, table, n0, n, want_list, year_list):
     """
 
     total_index = table.index  # 获得全部的时间
-    # n0 = 20
     my_list = list(range(-n, n0))
     my_list = list(reversed(my_list))
     final_table = pd.DataFrame()
 
-    # 将list添加到dataframe的第一列
     final_table.insert(0, 'Date', my_list)
     name_list = ["Date", want_list[0]]
 
@@ -103,13 +82,5 @@ def all_base2(end, table, n0, n, want_list, year_list):
 
     return final_table
 
-#b1_table = all_base2(end = end, table = df2, n0 = 20, n = 40, want_list = ["M01"], year_list = year_list)
-#print(b1_table)
-
-# series = QLineSeries()
-# for i in range(len(b1_table)):
-#     date = b1_table.loc[i, 'date']
-#     value = b1_table.loc[i, 'M01']
-#     series.append(date, value)
 
 

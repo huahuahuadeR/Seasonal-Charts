@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1441</width>
-    <height>915</height>
+    <height>944</height>
    </rect>
   </property>
   <property name="font">
@@ -539,7 +539,7 @@ QPushButton:hover{
        </font>
       </property>
       <property name="text">
-       <string>2023-12-26</string>
+       <string>2023-12-29</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton">
@@ -641,6 +641,36 @@ QComboBox:hover {
       </item>
       <item>
        <property name="text">
+        <string>RM01</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RM05</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RM09</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y01</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y05</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y09</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
         <string>P01</string>
        </property>
       </item>
@@ -652,6 +682,21 @@ QComboBox:hover {
       <item>
        <property name="text">
         <string>P09</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OI01</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OI05</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OI09</string>
        </property>
       </item>
       <item>
@@ -724,17 +769,22 @@ QComboBox:hover {
       </property>
       <item>
        <property name="text">
+        <string>M01M.DCE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
         <string>M05M.DCE</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>P05M.DCE</string>
+        <string>M09M.DCE</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>Y05M.DCE</string>
+        <string>RM01M.CZC</string>
        </property>
       </item>
       <item>
@@ -744,7 +794,52 @@ QComboBox:hover {
       </item>
       <item>
        <property name="text">
+        <string>RM09M.CZC</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y01M.DCE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y05M.DCE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y09M.DCE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P01M.DCE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P05M.DCE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P09M.DCE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OI01M.CZC</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
         <string>OI05M.CZC</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OI09M.CZC</string>
        </property>
       </item>
       <item>
@@ -764,7 +859,17 @@ QComboBox:hover {
       </item>
       <item>
        <property name="text">
+        <string>CS03M.DCE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
         <string>CS05M.DCE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CS07M.DCE</string>
        </property>
       </item>
      </widget>
@@ -810,17 +915,52 @@ QComboBox:hover {
       </property>
       <item>
        <property name="text">
-        <string>Y&amp;P&amp;OI-05</string>
+        <string>Y&amp;P&amp;OI 05</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>M&amp;RM-05</string>
+        <string>M&amp;RM 05</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>C&amp;CS-05</string>
+        <string>CS&amp;C 05</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y/M 05</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OI/RM 05</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y&amp;P&amp;OI 09</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M&amp;RM 09</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CS&amp;C 09</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y/M 05</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OI/RM 05</string>
        </property>
       </item>
      </widget>
@@ -910,7 +1050,7 @@ QComboBox:hover {
        </property>
       </item>
      </widget>
-     <widget class="QComboBox" name="comboBox_3">
+     <widget class="QComboBox" name="m_box">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -925,9 +1065,22 @@ QComboBox:hover {
         <pointsize>10</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox QAbstractItemView {
+    selection-background-color: #013B89;
+    selection-color: rgb(255, 255, 255);
+    text-align: AlignHCenter;
+	border: 1px white;
+	outline: 0px;
+}
+QComboBox:hover {
+    color: rgb(247,165,1);
+	background-color: transparent;
+}</string>
+      </property>
       <item>
        <property name="text">
-        <string>M1&amp;5</string>
+        <string>M15</string>
        </property>
       </item>
       <item>
@@ -953,6 +1106,81 @@ QComboBox:hover {
       <item>
        <property name="text">
         <string>RM91</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y15</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y59</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y91</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P15</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P59</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P91</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OI15</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OI95</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OI91</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C15</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C59</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C91</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CS15</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CS59</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CS91</string>
        </property>
       </item>
      </widget>
@@ -1020,6 +1248,19 @@ QComboBox:hover {
         <pointsize>10</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox QAbstractItemView {
+    selection-background-color: #013B89;
+    selection-color: rgb(255, 255, 255);
+    text-align: AlignHCenter;
+	border: 1px white;
+	outline: 0px;
+}
+QComboBox:hover {
+    color: rgb(247,165,1);
+	background-color: transparent;
+}</string>
+      </property>
       <property name="currentText">
        <string>60</string>
       </property>
@@ -1070,6 +1311,19 @@ QComboBox:hover {
         <pointsize>10</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox QAbstractItemView {
+    selection-background-color: #013B89;
+    selection-color: rgb(255, 255, 255);
+    text-align: AlignHCenter;
+	border: 1px white;
+	outline: 0px;
+}
+QComboBox:hover {
+    color: rgb(247,165,1);
+	background-color: transparent;
+}</string>
+      </property>
       <property name="currentText">
        <string>20</string>
       </property>
@@ -1097,12 +1351,12 @@ QComboBox:hover {
        </property>
       </item>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>10</x>
         <y>680</y>
-        <width>181</width>
+        <width>182</width>
         <height>41</height>
        </rect>
       </property>
@@ -1158,6 +1412,66 @@ QComboBox:hover {
          </item>
          <item>
           <property name="text">
+           <string>RM.CZC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>RM05.CZC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>RM09.CZC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Y.DCE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Y05M.DCE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Y09M.DCE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>P.DCE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>P05M.DCE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>P09M.DCE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OI.CZC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OI05M.CZC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OI09M.CZC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
            <string>C.DCE</string>
           </property>
          </item>
@@ -1173,12 +1487,27 @@ QComboBox:hover {
          </item>
          <item>
           <property name="text">
-           <string>P.DCE</string>
+           <string>C07M.DCE</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>OI.CZC</string>
+           <string>CS.DCE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CS03M.DCE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CS05M.DCE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CS07M.DCE</string>
           </property>
          </item>
          <item>
@@ -1188,7 +1517,27 @@ QComboBox:hover {
          </item>
          <item>
           <property name="text">
+           <string>CF05M.CZC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CF09M.CZC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
            <string>SR.CZC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SR05M.CZC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SR09M.CZC</string>
           </property>
          </item>
         </widget>
@@ -1261,7 +1610,7 @@ QComboBox:hover {
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -1325,7 +1674,7 @@ QComboBox:hover {
 }</string>
          </property>
          <property name="text">
-          <string>Windows</string>
+          <string>       时间</string>
          </property>
         </widget>
        </item>
@@ -1377,7 +1726,7 @@ QComboBox:hover {
       </rect>
      </property>
      <attribute name="label">
-      <string>波动率</string>
+      <string>统计信息</string>
      </attribute>
     </widget>
     <widget class="QWidget" name="page_2">
@@ -1431,60 +1780,11 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;***** 波动率季节性每点一次 单独调取一次 数据与其它图表数据独立&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;***** 日期格式不正确会自动调用当天日期&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;界面UI用自PyQt5&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;数据来源：Wind&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
-     </widget>
-     <widget class="QWidget" name="layoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>670</y>
-        <width>151</width>
-        <height>65</height>
-       </rect>
-      </property>
-      <layout class="QGridLayout" name="gridLayout_3">
-       <item row="0" column="0">
-        <widget class="QPushButton" name="pushButton_9">
-         <property name="text">
-          <string>1</string>
-         </property>
-         <property name="axis" stdset="0">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QPushButton" name="pushButton_16">
-         <property name="text">
-          <string>2</string>
-         </property>
-         <property name="role" stdset="0">
-          <string>axis</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QPushButton" name="pushButton_17">
-         <property name="text">
-          <string>3</string>
-         </property>
-         <property name="role" stdset="0">
-          <string>axis</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QPushButton" name="pushButton_18">
-         <property name="text">
-          <string>4</string>
-         </property>
-         <property name="role" stdset="0">
-          <string>axis</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
      </widget>
     </widget>
    </widget>
@@ -1526,8 +1826,8 @@ p, li { white-space: pre-wrap; }
    <slot>get_plot()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>40</x>
-     <y>314</y>
+     <x>111</x>
+     <y>369</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -1542,8 +1842,8 @@ p, li { white-space: pre-wrap; }
    <slot>term_code_change()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>180</x>
-     <y>284</y>
+     <x>101</x>
+     <y>346</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -1574,8 +1874,8 @@ p, li { white-space: pre-wrap; }
    <slot>b_code_change()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>180</x>
-     <y>364</y>
+     <x>101</x>
+     <y>336</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -1591,7 +1891,7 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>175</x>
-     <y>203</y>
+     <y>236</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -1607,7 +1907,7 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>183</x>
-     <y>236</y>
+     <y>276</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -1623,7 +1923,7 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>119</x>
-     <y>394</y>
+     <y>336</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -1639,7 +1939,7 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>85</x>
-     <y>751</y>
+     <y>806</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -1654,8 +1954,8 @@ p, li { white-space: pre-wrap; }
    <slot>vol_code_change()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>148</x>
-     <y>717</y>
+     <x>147</x>
+     <y>777</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -1687,7 +1987,7 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>180</x>
-     <y>444</y>
+     <y>436</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -1719,7 +2019,7 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>85</x>
-     <y>541</y>
+     <y>573</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
@@ -1734,12 +2034,28 @@ p, li { white-space: pre-wrap; }
    <slot>window_change()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>210</x>
-     <y>717</y>
+     <x>211</x>
+     <y>777</y>
     </hint>
     <hint type="destinationlabel">
      <x>0</x>
      <y>744</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>get_m_plot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>118</x>
+     <y>658</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-40</x>
+     <y>684</y>
     </hint>
    </hints>
   </connection>
@@ -1762,5 +2078,6 @@ p, li { white-space: pre-wrap; }
   <slot>spread_change()</slot>
   <slot>close_spread()</slot>
   <slot>window_change()</slot>
+  <slot>get_m_plot()</slot>
  </slots>
 </ui>
